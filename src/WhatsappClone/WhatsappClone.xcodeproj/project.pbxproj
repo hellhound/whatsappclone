@@ -322,7 +322,7 @@
 			containerPortal = 2C71B81C16769A41004339C6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2C71B82416769A41004339C6;
-			remoteInfo = whatsappclone;
+			remoteInfo = WhatsappClone;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -2086,8 +2086,8 @@
 			);
 			dependencies = (
 			);
-			name = whatsappclone;
-			productName = whatsappclone;
+			name = WhatsappClone;
+			productName = WhatsappClone;
 			productReference = 2C71B82516769A41004339C6 /* whatsappclone.app */;
 			productType = "com.apple.product-type.application";
 		};
