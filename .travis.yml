@@ -1,7 +1,2 @@
 language: objective-c
-env:
-    - XCCONFIGURATION="Debug"
-    - DEFAULTTARGETS="UnitTests"
-    - PROJECT_DIR="src/WhatsappClone"
-before_script:
-    - cd $PROJECT_DIR
+before_script: export XCCONFIGURATION="Debug"; export DEFAULTTARGETS="UnitTests"; export PROJECT_DIR="src/WhatsappClone"; cd $PROJECT_DIR
