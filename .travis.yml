@@ -1,1 +1,7 @@
 language: objective-c
+env:
+    - XCCONFIGURATION="Debug"
+    - DEFAULTTARGETS="UnitTests"
+    - PROJECT_DIR="src/WhatsappClone"
+before_script:
+    - cd $PROJECT_DIR
