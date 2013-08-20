@@ -434,7 +434,7 @@
 		2C69106C168CD4D300918171 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2C6A35E7169F583100CFE900 /* TLHitForwardingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHitForwardingView.h; sourceTree = "<group>"; };
 		2C6A35E8169F583100CFE900 /* TLHitForwardingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHitForwardingView.m; sourceTree = "<group>"; };
-		2C71B82516769A41004339C6 /* whatsappclone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatsappclone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C71B82516769A41004339C6 /* WhatsappClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsappClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C71B82916769A41004339C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2C71B82B16769A41004339C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2C71B82D16769A41004339C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1089,7 +1089,7 @@
 		2C71B82616769A41004339C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C71B82516769A41004339C6 /* whatsappclone.app */,
+				2C71B82516769A41004339C6 /* WhatsappClone.app */,
 				2CAC0ECE167BED12000878A7 /* UnitTests.octest */,
 			);
 			name = Products;
@@ -2074,9 +2074,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C71B82416769A41004339C6 /* whatsappclone */ = {
+		2C71B82416769A41004339C6 /* WhatsappClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C71B84316769A41004339C6 /* Build configuration list for PBXNativeTarget "whatsappclone" */;
+			buildConfigurationList = 2C71B84316769A41004339C6 /* Build configuration list for PBXNativeTarget "WhatsappClone" */;
 			buildPhases = (
 				2C71B82116769A41004339C6 /* Sources */,
 				2C71B82216769A41004339C6 /* Frameworks */,
@@ -2088,7 +2088,7 @@
 			);
 			name = WhatsappClone;
 			productName = WhatsappClone;
-			productReference = 2C71B82516769A41004339C6 /* whatsappclone.app */;
+			productReference = 2C71B82516769A41004339C6 /* WhatsappClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2CAC0ECD167BED12000878A7 /* UnitTests */ = {
@@ -2121,7 +2121,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "none of your business";
 			};
-			buildConfigurationList = 2C71B81F16769A41004339C6 /* Build configuration list for PBXProject "whatsappclone" */;
+			buildConfigurationList = 2C71B81F16769A41004339C6 /* Build configuration list for PBXProject "WhatsappClone" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2134,7 +2134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C71B82416769A41004339C6 /* whatsappclone */,
+				2C71B82416769A41004339C6 /* WhatsappClone */,
 				2CAC0ECD167BED12000878A7 /* UnitTests */,
 			);
 		};
@@ -2474,7 +2474,7 @@
 /* Begin PBXTargetDependency section */
 		2CE27E101683702500EB20F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C71B82416769A41004339C6 /* whatsappclone */;
+			target = 2C71B82416769A41004339C6 /* WhatsappClone */;
 			targetProxy = 2CE27E0F1683702500EB20F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2489,7 +2489,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jean-Pierre Chauvel (9M9RAHG2Y6)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2503,8 +2503,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D002D130-02D2-482E-A844-A33F6F9D5504";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2518,16 +2517,15 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jean-Pierre Chauvel (9M9RAHG2Y6)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D002D130-02D2-482E-A844-A33F6F9D5504";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2536,6 +2534,7 @@
 		2C71B84416769A41004339C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Frameworks\"",
@@ -2560,6 +2559,7 @@
 				);
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = Sources;
 				VALID_ARCHS = "armv7 armv7s i386";
@@ -2570,6 +2570,7 @@
 		2C71B84516769A41004339C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Frameworks\"",
@@ -2593,6 +2594,7 @@
 				);
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = Sources;
 				WRAPPER_EXTENSION = app;
@@ -2665,7 +2667,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jean-Pierre Chauvel (9M9RAHG2Y6)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2679,8 +2681,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D002D130-02D2-482E-A844-A33F6F9D5504";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Coverage;
@@ -2688,6 +2689,7 @@
 		2CD6901316802960001B3853 /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Frameworks\"",
@@ -2718,6 +2720,7 @@
 					"-lgcov",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = Sources;
 				VALID_ARCHS = "armv7 armv7s i386";
@@ -2764,7 +2767,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C71B81F16769A41004339C6 /* Build configuration list for PBXProject "whatsappclone" */ = {
+		2C71B81F16769A41004339C6 /* Build configuration list for PBXProject "WhatsappClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C71B84116769A41004339C6 /* Debug */,
@@ -2774,7 +2777,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C71B84316769A41004339C6 /* Build configuration list for PBXNativeTarget "whatsappclone" */ = {
+		2C71B84316769A41004339C6 /* Build configuration list for PBXNativeTarget "WhatsappClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C71B84416769A41004339C6 /* Debug */,
