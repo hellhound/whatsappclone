@@ -2098,7 +2098,6 @@
 				2CAC0EC9167BED12000878A7 /* Sources */,
 				2CAC0ECA167BED12000878A7 /* Frameworks */,
 				2CAC0ECB167BED12000878A7 /* Resources */,
-				2CAC0ECC167BED12000878A7 /* ShellScript */,
 				2C9821491696372D00E09ADA /* ShellScript */,
 			);
 			buildRules = (
@@ -2279,19 +2278,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run gcov on the framework getting tested\nif [ \"${CONFIGURATION}\" = 'Coverage' ]; then\n    PRODUCT_OBJ_DIR=\"${OBJROOT}/${PROJECT_NAME}.build/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${PRODUCT_NAME}.build/Objects-normal/${NATIVE_ARCH}\"\n    mkdir -p coverage\n    pushd coverage\n    find \"${OBJROOT}\" -name *.gcda -exec /usr/bin/env gcov -o\"${PRODUCT_OBJ_DIR}\" {} \\;\n    popd\nfi";
-		};
-		2CAC0ECC167BED12000878A7 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
